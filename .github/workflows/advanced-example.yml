@@ -12,13 +12,13 @@ jobs:
       matrix:
         include:
           - arch: aarch64
-            distro: ubuntu18.04
+            distro: buster
           - arch: ppc64le
-            distro: alpine_latest
+            distro: buster
           - arch: s390x
-            distro: fedora_latest
+            distro: buster
           - arch: armv7
-            distro: archarm_latest
+            distro: buster
 
     steps:
       - uses: actions/checkout@v2.1.0
